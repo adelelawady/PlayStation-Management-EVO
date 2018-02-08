@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19A84A15-AFBB-47AE-92C9-A42F311A4F02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EVO.My.MyApplication</StartupObject>
+    <RootNamespace>EVO</RootNamespace>
+    <AssemblyName>EVO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EVO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EVO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1474904927_gamecontroller.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.4.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Schedule.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=10.4.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.4.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=10.4.0.1, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=10.4.0.1, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Db Dells\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>..\..\..\Db Dells\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\..\..\Db Dells\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Fabric.Plugin">
+      <HintPath>..\..\..\Db Dells\MySql.Fabric.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup">
+      <HintPath>..\..\..\Db Dells\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing.Design" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appearance\Thems\aether_theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\anothThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\Avast Them.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\aviratabcontrol.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\CHrome.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\clsNeoBuxTheme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\Dark Them.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\elegant.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\Empire %28Tasty%29 Theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\EXThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\FaceBookThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\FlatThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Tools\AlphaGradientPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Tools\CButton.Designer.vb">
+      <DependentUpon>CButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Appearance\Tools\CButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Tools\ColorWithAlpha.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Tools\ColorWithAlphaCollection.vb" />
+    <Compile Include="Appearance\Tools\ColorWithAlphaCollectionConverter.vb" />
+    <Compile Include="Appearance\Tools\ColorWithAlphaConverter.vb" />
+    <Compile Include="Appearance\Tools\DrawingHelper.vb" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="DataBase\DataBaseConnection.vb" />
+    <Compile Include="DataBase\UI\DBConnectionChecker.Designer.vb">
+      <DependentUpon>DBConnectionChecker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataBase\UI\DBConnectionChecker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBase\Helper.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Controls\DeviceSesstionClosePOPUP.Designer.vb">
+      <DependentUpon>DeviceSesstionClosePOPUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Controls\DeviceSesstionClosePOPUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Controls\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Controls\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Controls\InputPopupNote.Designer.vb">
+      <DependentUpon>InputPopupNote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Controls\InputPopupNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Controls\InputPopup.Designer.vb">
+      <DependentUpon>InputPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Controls\InputPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Device\UI\ChangedDevices\ChangedDevicesViewr.Designer.vb">
+      <DependentUpon>ChangedDevicesViewr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Device\UI\ChangedDevices\ChangedDevicesViewr.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\History\HistoryHandler.vb" />
+    <Compile Include="System\LOG\LOG.vb" />
+    <Compile Include="System\Main\Application\ApplicationSettings.vb" />
+    <Compile Include="System\Main\SystemTabHandler.vb" />
+    <Compile Include="System\MYSQL\SQLExportImport.vb" />
+    <Compile Include="System\Schedule\ScheduleObject.vb" />
+    <Compile Include="System\TabPages\DeviceInfo.Designer.vb">
+      <DependentUpon>DeviceInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\DeviceInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\DevicesControlerPanel.Designer.vb">
+      <DependentUpon>DevicesControlerPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\DevicesControlerPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\DevicesTypeController.Designer.vb">
+      <DependentUpon>DevicesTypeController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\DevicesTypeController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\DeviesLogHistory.Designer.vb">
+      <DependentUpon>DeviesLogHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\DeviesLogHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\Events.Designer.vb">
+      <DependentUpon>Events.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\Events.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\Schedule\ADDRESRVATION.Designer.vb">
+      <DependentUpon>ADDRESRVATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\Schedule\ADDRESRVATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\Schedule\Schedule.Designer.vb">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\Schedule\Schedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\SpeciesControllerPanel.Designer.vb">
+      <DependentUpon>SpeciesControllerPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\SpeciesControllerPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\PlayStationTab.Designer.vb">
+      <DependentUpon>PlayStationTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\PlayStationTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\GamePoster.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Appearance\Thems\SkypeThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\TeenThem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\Windows8 Them.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\xylos_theme_[9_controls].vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\[gdi+]_element_theme_[vb.net].vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Appearance\Thems\[vb.net]_loyal_theme_[vb.net].vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System\Controls\CoreScrollbar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Device\UI\DeviceControlPanel.Designer.vb">
+      <DependentUpon>DeviceControlPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Device\UI\DeviceControlPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Device\DevicesHandler.vb" />
+    <Compile Include="System\Notifications\ExtendedControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System\Notifications\NotificationManager.vb" />
+    <Compile Include="System\OrderHandler\OrderHandler.Designer.vb">
+      <DependentUpon>OrderHandler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\OrderHandler\OrderHandler.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Species\SpeciesAdd\SpeciesItem.Designer.vb">
+      <DependentUpon>SpeciesItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Species\SpeciesAdd\SpeciesItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Species\SpeciesAdd\SpeciesList.Designer.vb">
+      <DependentUpon>SpeciesList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Species\SpeciesAdd\SpeciesList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\SystemInfo\InfoPanel.Designer.vb">
+      <DependentUpon>InfoPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemInfo\InfoPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\TabPages\UserPanel\UserPanel.Designer.vb">
+      <DependentUpon>UserPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TabPages\UserPanel\UserPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Time\Time.vb" />
+    <Compile Include="System\Time\UI\TimeControl.Designer.vb">
+      <DependentUpon>TimeControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Time\UI\TimeControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\TypeTab\UI\NewDeviceTypePOPUP.Designer.vb">
+      <DependentUpon>NewDeviceTypePOPUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TypeTab\UI\NewDeviceTypePOPUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TypeTab\UI\TypeTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="System\TypeTab\UI\TypeTabPanel.Designer.vb">
+      <DependentUpon>TypeTabPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TypeTab\UI\TypeTabPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\TypeTab\TypeTabsHandler.vb" />
+    <Compile Include="System\Main\SystemHandler.vb" />
+    <Compile Include="System\Main\SystemPanel.Designer.vb">
+      <DependentUpon>SystemPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Main\SystemPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\ColorHelp\ColorSchemes.vb" />
+    <Compile Include="System\Device\Device.vb" />
+    <Compile Include="System\Device\UI\DeviceControl.Designer.vb">
+      <DependentUpon>DeviceControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Device\UI\DeviceControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Error\ErrorHandler.vb" />
+    <Compile Include="System\Species\species.vb" />
+    <Compile Include="System\Species\SpeciesView\SpeciesControl.Designer.vb">
+      <DependentUpon>SpeciesControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Species\SpeciesView\SpeciesControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Species\SpeciesView\SpeciesHandler.Designer.vb">
+      <DependentUpon>SpeciesHandler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Species\SpeciesView\SpeciesHandler.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\Device\UI\DevicesTableLayout.Designer.vb">
+      <DependentUpon>DevicesTableLayout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Device\UI\DevicesTableLayout.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\USER\UI\UserShiftViewer.Designer.vb">
+      <DependentUpon>UserShiftViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\USER\UI\UserShiftViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="System\USER\USER.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Appearance\Tools\CButton.resx">
+      <DependentUpon>CButton.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBase\UI\DBConnectionChecker.resx">
+      <DependentUpon>DBConnectionChecker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Controls\DeviceSesstionClosePOPUP.resx">
+      <DependentUpon>DeviceSesstionClosePOPUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Controls\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Controls\InputPopupNote.resx">
+      <DependentUpon>InputPopupNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Controls\InputPopup.resx">
+      <DependentUpon>InputPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Device\UI\ChangedDevices\ChangedDevicesViewr.resx">
+      <DependentUpon>ChangedDevicesViewr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\DeviceInfo.resx">
+      <DependentUpon>DeviceInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\DevicesControlerPanel.resx">
+      <DependentUpon>DevicesControlerPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\DevicesTypeController.resx">
+      <DependentUpon>DevicesTypeController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\DeviesLogHistory.resx">
+      <DependentUpon>DeviesLogHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\Events.resx">
+      <DependentUpon>Events.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\Schedule\ADDRESRVATION.resx">
+      <DependentUpon>ADDRESRVATION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\Schedule\Schedule.resx">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\SpeciesControllerPanel.resx">
+      <DependentUpon>SpeciesControllerPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\PlayStationTab.resx">
+      <DependentUpon>PlayStationTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Device\UI\DeviceControlPanel.resx">
+      <DependentUpon>DeviceControlPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\OrderHandler\OrderHandler.resx">
+      <DependentUpon>OrderHandler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Species\SpeciesAdd\SpeciesItem.resx">
+      <DependentUpon>SpeciesItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Species\SpeciesAdd\SpeciesList.resx">
+      <DependentUpon>SpeciesList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Main\SystemPanel.resx">
+      <DependentUpon>SystemPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\SystemInfo\InfoPanel.resx">
+      <DependentUpon>InfoPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TabPages\UserPanel\UserPanel.resx">
+      <DependentUpon>UserPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Time\UI\TimeControl.resx">
+      <DependentUpon>TimeControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TypeTab\UI\NewDeviceTypePOPUP.resx">
+      <DependentUpon>NewDeviceTypePOPUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TypeTab\UI\TypeTabPanel.resx">
+      <DependentUpon>TypeTabPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Device\UI\DeviceControl.resx">
+      <DependentUpon>DeviceControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Species\SpeciesView\SpeciesControl.resx">
+      <DependentUpon>SpeciesControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Species\SpeciesView\SpeciesHandler.resx">
+      <DependentUpon>SpeciesHandler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Device\UI\DevicesTableLayout.resx">
+      <DependentUpon>DevicesTableLayout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\USER\UI\UserShiftViewer.resx">
+      <DependentUpon>UserShiftViewer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\caution-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justagain-din.ttf" />
+    <None Include="Resources\tick_yes_approve_accept_green-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banking_00002_A-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_clock_history_recent-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_cross_delete_stop-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-monitor_screen-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91 %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good_ok_check_mark-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UntitledGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-down-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-up-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mdiClient1.BackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-monitor_screen-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus_01-66-32.png" />
+    <None Include="Resources\678092-sign-add-16.png" />
+    <None Include="Resources\select_all-32.png" />
+    <None Include="Resources\0042_092_refresh_update_reload_sync_syncronization-16.png" />
+    <None Include="Resources\ic_set_azul.png" />
+    <None Include="Resources\678110-sign-info-32.png" />
+    <None Include="Resources\_Rack-256.png" />
+    <None Include="Resources\678110-sign-info-256.png" />
+    <None Include="Resources\compose-64.png" />
+    <None Include="Resources\Pencil-16.png" />
+    <None Include="Resources\compose-16.png" />
+    <None Include="Resources\1475789518_house_kitchen_table.ico" />
+    <None Include="Resources\house_kitchen_table-128.png" />
+    <None Include="Resources\Armchair.png" />
+    <None Include="Resources\PS4-Controller.png" />
+    <None Include="Resources\power-128.png" />
+    <None Include="Resources\power-64.png" />
+    <None Include="Resources\discount-32.png" />
+    <None Include="Resources\discount-16.png" />
+    <None Include="Resources\controller-xbox-16.png" />
+    <None Include="Resources\_Game_Controller-16.png" />
+    <None Include="Resources\Strange Noise-SoundBible.com-229408508.wav" />
+    <None Include="Resources\Calendar.png" />
+    <Content Include="1474904927_gamecontroller.ico" />
+    <None Include="Resources\Calendar16.png" />
+    <Content Include="System\SystemInfo\DeviceHtmlInfo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\TabPages\Expenses\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

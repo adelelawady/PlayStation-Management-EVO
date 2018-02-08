@@ -1,0 +1,105 @@
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\EVO.exe
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\EVO.pdb
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\EVO.xml
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MySql.Data.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MySql.Data.Entity.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MySql.Data.Entity.EF6.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MySql.Fabric.Plugin.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.vbprojResolveAssemblyReference.cache
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.CButton.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.Resources.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.vbproj.GenerateResource.Cache
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.exe
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.xml
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.pdb
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DBConnectionChecker.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SystemPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SpeciesControl.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SpeciesHandler.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DeviceControlPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DeviceControl1.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.TimeControl.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SpeciesList.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.TypeTabPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.OrderHandler.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SpeciesItem.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DevicesTableLayout.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MetroFramework.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MetroFramework.Fonts.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.InfoPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SplashScreen1.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.PlayStationTab.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.frmMain.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DeviceInfo.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DevicesControlerPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.InputPopup.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.InputPopupNote.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.SpeciesControllerPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DevicesTypeController.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DeviesLogHistory.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.Schedule.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.NewDeviceTypePOPUP.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.DeviceSesstionClosePOPUP.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.ADDRESRVATION.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\MySqlBackup.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.LOGIN.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.UserPanel.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.Form1.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.ChangedDevicesViewr.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.UserShiftViewer.resources
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.DotNetBar.Schedule.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.DotNetBar.SuperGrid.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.DotNetBar2.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.Instrumentation.dll
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.DotNetBar2.xml
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\bin\Release\DevComponents.Instrumentation.xml
+C:\Elkonsol\Projects\[Other] Projects\EVO\EVO\obj\x86\Release\EVO.Events.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.exe
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.xml
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.pdb
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\EVO.exe
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\EVO.pdb
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\EVO.xml
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\MetroFramework.dll
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\MetroFramework.Fonts.dll
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\DevComponents.DotNetBar.SuperGrid.xml
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\DevComponents.DotNetBar2.xml
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\bin\Release\DevComponents.Instrumentation.xml
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.vbprojResolveAssemblyReference.cache
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.CButton.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DBConnectionChecker.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DeviceSesstionClosePOPUP.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.Form1.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.InputPopupNote.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.InputPopup.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.ChangedDevicesViewr.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DeviceInfo.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DevicesControlerPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DevicesTypeController.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DeviesLogHistory.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.Events.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.LOGIN.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.ADDRESRVATION.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.Schedule.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SpeciesControllerPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.PlayStationTab.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.frmMain.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.Resources.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DeviceControlPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.OrderHandler.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SpeciesItem.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SpeciesList.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SystemPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.InfoPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.UserPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.TimeControl.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.NewDeviceTypePOPUP.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.TypeTabPanel.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DeviceControl1.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SpeciesControl.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SpeciesHandler.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.DevicesTableLayout.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.SplashScreen1.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.UserShiftViewer.resources
+F:\recover\Recovered data 02-07 23_44_05\Deep Scan result\Lost Partition1(NTFS)\Elkonsol\Projects\[Other] Projects\EVO3x\EVO\EVO\obj\x86\Release\EVO.vbproj.GenerateResource.Cache

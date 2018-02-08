@@ -1,0 +1,25 @@
+﻿<font color="#000000"><b>Type</b></font> :<font color="#7F7F7F"> {0}</font><br/>
+
+______________________________________________<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Time</b><br/>
+<b><font color="#000000">StartTime</font></b> :<font color="#00B7EF"> {1}</font><br/>
+<b><font color="#000000">Duration</font></b> : <font color="#00B7EF">{2}</font>  <br/>
+______________________________________________<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Bill</b><br/>
+<b><font color="#000000"><u>OneMinutePrice</u> </font></b> : <font color="#00B7EF"><font color="#7F7F7F">      &nbsp;&nbsp;&nbsp;&nbsp;<u>{6}</u></font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>
+<b><font color="#000000">PlayStationBill </font></b> : <font color="#00B7EF"><font color="#7F7F7F">      &nbsp;&nbsp;&nbsp;&nbsp;{3}</font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>
+<b><font color="#000000">OrdersBill </font></b> : <font color="#00B7EF"><font color="#7F7F7F"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{4}</font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>
+<b><font color="#000000">Total </font></b> : <font color="#00B7EF"><font color="#7F7F7F">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color="#595959"><font color="#000000"><b>{5}</b></font></font></b></font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>
+______________________________________________<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TimeLimits</b><br/>
+<font color="#000000"><b>Time Limits</b></font> :<font color="#7F7F7F"> {8}</font><br/>
+<font color="#000000"><b>RestTime</b></font> :<font color="#7F7F7F"> {9}</font><br/>
+
+{7}
+
+
+______________________________________________<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>OverTime</b><br/>
+<b><font color="#000000">OverTimeBy</font></b> :<font color="#00B7EF"> {0}</font><br/>
+<b><font color="#000000">OverTimeBill </font></b> : <font color="#00B7EF"><font color="#7F7F7F"> {1}</font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>
+<b><font color="#000000">TotalBill + OverTimeBill </font></b> : <font color="#00B7EF"><font color="#7F7F7F"> {2}</font> <font color="#F59D56"><b> EGP</b></font></font>  <br/>

@@ -1,0 +1,601 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EVO
+</name>
+</assembly>
+<members>
+<member name="P:EVO.CButton.Shape">
+	<summary>
+ The Shape of the Button as eShape choices (Ellipse, Rectangle, and Triangles)
+ </summary>
+</member><member name="P:EVO.CButton.DimFactorHover">
+	<summary>
+ Get or Set how much to dim the color on mouse rollover. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:EVO.CButton.DimFactorClick">
+	<summary>
+ Get or Set how much to dim the color on mouse down. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:EVO.CButton.BorderColor">
+	<summary>
+ Get or Set the Border color
+ </summary>
+</member><member name="P:EVO.CButton.BorderShow">
+	<summary>
+ Get or Set whether to show the Border
+ </summary>
+</member><member name="P:EVO.CButton.FillType">
+	<summary>
+ The eFillType Fill Type to apply to the CButton
+ </summary>
+</member><member name="P:EVO.CButton.FillTypeLinear">
+	<summary>
+ The Linear Blend type
+ </summary>
+</member><member name="P:EVO.CButton.ColorFillSolid">
+	<summary>
+ The Solid Color to fill the CButton
+ </summary>
+</member><member name="P:EVO.CButton.ColorFillBlend">
+	<summary>
+ The ColorBlend used to fill the CButton
+ </summary>
+</member><member name="P:EVO.CButton.Text">
+	<summary>
+ Get or Set the Button Text
+ </summary>
+</member><member name="P:EVO.CButton.TextSmoothingMode">
+	<summary>
+ Get or Set the TextrenderingHint fot the button text
+ </summary>
+</member><member name="P:EVO.CButton.TextAlign">
+	<summary>
+ Get or Set the alignment for the text
+ </summary>
+</member><member name="P:EVO.CButton.TextMargin">
+	<summary>
+ Get or Set the margion between the text and the button edge
+ </summary>
+</member><member name="P:EVO.CButton.TextImageRelation">
+	<summary>
+ Get or Set the Relationship of the Text to the Image
+ </summary>
+</member><member name="P:EVO.CButton.TextShadowShow">
+	<summary>
+ Get or Set if the Text has a shadow
+ </summary>
+</member><member name="P:EVO.CButton.TextShadow">
+	<summary>
+ Get or Set the color of the Shadow Text
+ </summary>
+</member><member name="P:EVO.CButton.Image">
+	<summary>
+ Get or Set the small Image next to text
+ </summary>
+</member><member name="P:EVO.CButton.ImageAlign">
+	<summary>
+ Get or Set the placement of the Image
+ </summary>
+</member><member name="P:EVO.CButton.ImageSize">
+	<summary>
+ Get or Set the Size of the Image
+ </summary>
+</member><member name="P:EVO.CButton.Imagelist">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:EVO.CButton.ImageIndex">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:EVO.CButton.SideImage">
+	<summary>
+ Get or Set the Side Image
+ </summary>
+</member><member name="P:EVO.CButton.SideImageSize">
+	<summary>
+ Get or Set the Size of the Side Image
+ </summary>
+</member><member name="P:EVO.CButton.SideImageIsClickable">
+	<summary>
+ Get or Set if the Side Image raises its own click event
+ </summary>
+</member><member name="P:EVO.CButton.SideImageBehindText">
+	<summary>
+ Get or Set if the Side Image is in front or behind the Text
+ </summary>
+</member><member name="P:EVO.CButton.SideImageAlign">
+	<summary>
+ Get or Set the Side Image Alignment
+ </summary>
+</member><member name="P:EVO.CButton.FocalPoints">
+	<summary>
+ The CenterPoint and FocusScales for the ColorBlend
+ </summary>
+</member><member name="M:EVO.CButton.CenterPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the CenterPt for the DesignTime interaction
+ </summary>
+</member><member name="M:EVO.CButton.FocusPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the FocusPt for the DesignTime interaction
+ </summary>
+</member><member name="P:EVO.CButton.UseMnemonic">
+	<summary>
+ If true, the first character proceeded by an ampersand will be used as the button's mnemonic key.
+ </summary>
+</member><member name="M:EVO.CButton.DimTheColor(System.Drawing.Color,System.Int32)">
+	<summary>
+ This function takes the given color and Lightens or Darkens it by the given value 
+ </summary>
+	<param name="DimColor">Base Color object to be changed</param>
+	<param name="DimDegree">Positive value to darken and negative value to lighten DimColor</param>
+</member><member name="M:EVO.CButton.GrayTheColor(System.Drawing.Color)">
+	<summary>
+ This function takes the given color and returns its gray equivilant
+ </summary>
+	<param name="GrayColor">Color object to be grayed</param>
+</member><member name="T:EVO.CButton">
+	<summary>
+ Custom Button Control with Gradient Colors and Extra Image (VB.NET)
+ </summary>
+	<remarks>v2.0</remarks>
+</member><member name="T:EVO.MouseState__2">
+	<summary>
+ Loyal Theme
+ Created by Earn
+ From HackForums.net
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EVO.DrawHelperg">
+	<summary>
+ LogIn GDI+ Theme
+ Creator: Xertz (HF)
+ Version: 1.2
+ Control Count: 28
+ Date Created: 18/12/2013
+ Date Changed: 05/01/2014
+ UID: 1602992
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EVO.frmMain.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="M:EVO.frmMain.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:EVO.frmMain.Main">
+	<summary>
+ The main entry point for the application.
+ </summary>
+</member><member name="T:EVO.frmMain">
+	<summary>
+ Summary description for Form1.
+ </summary>
+</member><member name="P:EVO.ExtendedControl.IsTransparent">
+	<summary>
+ Gets or sets the transparency of the control.
+ Transparency means you can see the controls beneath this control.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:EVO.Core.Scrollbar.LargeChange">
+	<summary>The change in the position of the thumb when the user clicks in the scroll bar area or uses the pgup/pgdn.</summary>
+</member><member name="P:EVO.Core.Scrollbar.Maximum">
+	<summary>The maximum position of the thumb.</summary>
+</member><member name="P:EVO.Core.Scrollbar.Minimum">
+	<summary>The minimum position of the thumb.</summary>
+</member><member name="P:EVO.Core.Scrollbar.SmallChange">
+	<summary>The change in the position of the thumb when the user clicks one of the arrows or uses an arrow key.</summary>
+</member><member name="P:EVO.Core.Scrollbar.Value">
+	<summary>The position of the thumb.</summary>
+</member><member name="P:EVO.Core.Scrollbar.Orientation">
+	<summary>The orientation of the scrollbar vertical/horizontal.</summary>
+</member><member name="T:EVO.Core.Scrollbar.OrientationMode">
+	<summary>An enumeration of scrollbar orientation horizontal/vertical.</summary>
+</member><member name="T:EVO.Core.Scrollbar.ControlEvents">
+	<summary>An enumeration of usercontrol events.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw">
+	<summary>Method for drawing the scrollbar control.</summary>
+</member><member name="M:EVO.Core.Scrollbar.ReDraw">
+	<summary>Method for redrawing the scrollbar control.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Get_Thumb_Height">
+	<summary>Method for calculating the thumb height of the scrollbar control.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw_Arrow_Down(System.Int32,System.Int32,System.Int32,System.Int32,EVO.Core.Scrollbar.ControlEvents)">
+	<summary>Method for drawing the arrow down button.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw_Arrow_Up(System.Int32,System.Int32,System.Int32,System.Int32,EVO.Core.Scrollbar.ControlEvents)">
+	<summary>Method for drawing the arrow up button.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw_Thumb(System.Int32,System.Int32,System.Int32,System.Int32,EVO.Core.Scrollbar.ControlEvents)">
+	<summary>Method for drawing the the scrollbar thumb.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw_Shaft_Above(System.Int32,System.Int32,System.Int32,System.Int32,EVO.Core.Scrollbar.ControlEvents)">
+	<summary>Method for drawing the shaft above the scrollbar thumb.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Draw_Shaft_Below(System.Int32,System.Int32,System.Int32,System.Int32,EVO.Core.Scrollbar.ControlEvents)">
+	<summary>Method for drawing the shaft below the scrollbar thumb.</summary>
+</member><member name="M:EVO.Core.Scrollbar.CursorPOS">
+	<summary>Method for retrieving the mouse position relative to the control.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Move_ShaftDown">
+	<summary>Method for moving the thumb downwards based on scrollbar shaft being pressed.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Move_ThumbDown">
+	<summary>Method for moving the thumb downwards based on arrow button down being clicked.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Move_ShaftUp">
+	<summary>Method for moving the thumb upwards based on scrollbar shaft being pressed.</summary>
+</member><member name="M:EVO.Core.Scrollbar.Move_ThumbUp">
+	<summary>Method for moving the thumb upwards based on arrow button up being clicked.</summary>
+</member><member name="M:EVO.Core.Scrollbar.ThumbMover">
+	<summary>Method for moving the thumb based on sliding it.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnResize(System.EventArgs)">
+	<summary>Method for usercontrol resize.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>Method for usercontrol paint.</summary>
+</member><member name="M:EVO.Core.Scrollbar.PageUp_Tick(System.Object,System.EventArgs)">
+	<summary>Method for timing thumb upwards movement.</summary>
+</member><member name="M:EVO.Core.Scrollbar.PageDown_Tick(System.Object,System.EventArgs)">
+	<summary>Method for timing thumb downwards movement.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary>Method for usercontrol mousedown event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseEnter(System.EventArgs)">
+	<summary>Method for usercontrol mouseenter event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseHover(System.EventArgs)">
+	<summary>Method for usercontrol mousehover event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseLeave(System.EventArgs)">
+	<summary>Method for usercontrol mouseleave event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+	<summary>Method for usercontrol mousemove event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>Method for usercontrol mouseup event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+	<summary>Method for usercontrol keyup event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.ProcessDialogKey(System.Windows.Forms.Keys)">
+	<summary>Method for usercontrol processdialogkey event.</summary>
+</member><member name="M:EVO.Core.Scrollbar.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+	<summary>Method for usercontrol onmousewheel event.</summary>
+</member><member name="T:EVO.Core.Scrollbar">
+	<summary>CoreScrollbar is a custom scrollbar class that is fully drawn.</summary>
+</member><member name="P:EVO.Core.ControlInfo.X">
+	<summary>The left location of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.Y">
+	<summary>The top location of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.H">
+	<summary>The height of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.W">
+	<summary>The width of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.Name">
+	<summary>The name of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.X2">
+	<summary>The left + width of the fake control.</summary>
+</member><member name="P:EVO.Core.ControlInfo.Y2">
+	<summary>The top + height of the fake control.</summary>
+</member><member name="M:EVO.Core.ControlInfo.#ctor">
+	<summary>The constructor of the controlinfo class.</summary>
+</member><member name="T:EVO.Core.ControlInfo">
+	<summary>ControlInfo class is a storage container for fake controls made from gdi+.</summary>
+</member><member name="T:EVO.DrawHelpers_">
+	<summary>
+ Elegant GDI Theme
+ Creator: Xertz (HF)
+ Version: 1.0
+ Control Count: 17
+ Date Created: 25/12/2013
+ UID: 1602992
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:EVO.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._0042_092_refresh_update_reload_sync_syncronization_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._678092_sign_add_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._678110_sign_info_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._678110_sign_info_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._91__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._Game_Controller_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources._Rack_256">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Armchair">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.arrow_down_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.arrow_up_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Calendar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Calendar16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.caution_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.compose_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.compose_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.controller_xbox_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.desktop_monitor_screen_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.DevicesPanelDeviceInfo">
+	<summary>
+  Looks up a localized string similar to &lt;h6&gt; &lt;b&gt;&lt;font color="#255663"&gt;Device&lt;/font&gt;&lt;/b&gt; {0} &lt;/h6&gt;&lt;h6&gt; &lt;b&gt;&lt;font color="#255663"&gt;Type&lt;/font&gt;&lt;/b&gt; &lt;font color="#1F497D" size="7"&gt;{1}&lt;/font&gt; &lt;/h6&gt;&lt;h6&gt; &lt;b&gt;&lt;font color="#255663"&gt;State&lt;/font&gt;&lt;/b&gt; {2} &lt;/h6&gt;.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.discount_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.discount_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.good_ok_check_mark_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.HTMLDeviceInfo">
+	<summary>
+  Looks up a localized string similar to &lt;font color="#000000"&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/font&gt; :&lt;font color="#7F7F7F"&gt; {0}&lt;/font&gt;&lt;br/&gt;
+
+______________________________________________&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Time&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;&lt;font color="#000000"&gt;StartTime&lt;/font&gt;&lt;/b&gt; :&lt;font color="#00B7EF"&gt; {1}&lt;/font&gt;&lt;br/&gt;
+&lt;b&gt;&lt;font color="#000000"&gt;Duration&lt;/font&gt;&lt;/b&gt; : &lt;font color="#00B7EF"&gt;{2}&lt;/font&gt;  &lt;br/&gt;
+______________________________________________&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Bill&lt;/ [rest of string was truncated]";.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.ic_set_azul">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.justagain_din">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.mdiClient1_BackgroundImage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.OverTimeHTML">
+	<summary>
+  Looks up a localized string similar to ______________________________________________&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;OverTime&lt;/b&gt;&lt;br/&gt;
+&lt;b&gt;&lt;font color="#000000"&gt;OverTimeBy&lt;/font&gt;&lt;/b&gt; :&lt;font color="#00B7EF"&gt; {0}&lt;/font&gt;&lt;br/&gt;
+&lt;b&gt;&lt;font color="#000000"&gt;OverTimeBill &lt;/font&gt;&lt;/b&gt; : &lt;font color="#00B7EF"&gt;&lt;font color="#7F7F7F"&gt; {1}&lt;/font&gt; &lt;font color="#F59D56"&gt;&lt;b&gt; EGP&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;  &lt;br/&gt;
+&lt;b&gt;&lt;font color="#000000"&gt;TotalBill + OverTimeBill &lt;/font&gt;&lt;/b&gt; : &lt;font color="#00B7EF"&gt;&lt;font color="#7F7F7F"&gt; {2}&lt;/font&gt; &lt;font [rest of string was truncated]";.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Pencil_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.power_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.PS4_Controller">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.select_all_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.Strange_Noise_SoundBible_com_229408508">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.tick_yes_approve_accept_green_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.time_clock_history_recent_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.UntitledGray">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.UntitledWhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:EVO.My.Resources.Resources.x_cross_delete_stop_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:EVO.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:EVO.Helpers">
+	<summary>
+ Flat UI Theme
+ Creator: iSynthesis (HF)
+ Version: 1.0.4
+ Date Created: 17/06/2013
+ Date Changed: 26/06/2013
+ UID: 374648
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:EVO.FlatAlertBox.W">
+	<summary>
+ How to use: FlatAlertBox.ShowControl(Kind, String, Interval)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EVO.Schedule.CalendarView1_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles CalendarView MouseUp events
+ </summary>
+	<param name="sender">Varied sender</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.AddNewAppointment(System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)">
+	<summary>
+ Adds a new appointment at the user selected time
+ </summary>
+</member><member name="M:EVO.Schedule.AppointmentViewMouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles AppointmentView MouseUp events
+ </summary>
+	<param name="sender">AppointmentView</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.btnDay_Click(System.Object,System.EventArgs)">
+	<summary>
+ Day view selection
+ </summary>
+	<param name="sender">PopupItem</param>
+	<param name="e">EventArgs</param>
+</member><member name="M:EVO.Schedule.btnWeek_Click(System.Object,System.EventArgs)">
+	<summary>
+ Week view selection
+ </summary>
+	<param name="sender">PopupItem</param>
+	<param name="e">EventArgs</param>
+</member><member name="M:EVO.Schedule.btnMonth_Click(System.Object,System.EventArgs)">
+	<summary>
+ Month view selection
+ </summary>
+	<param name="sender">PopupItem</param>
+	<param name="e">EventArgs</param>
+</member><member name="M:EVO.Schedule.btnTimeLine_Click(System.Object,System.EventArgs)">
+	<summary>
+ TimeLine view selection
+ </summary>
+	<param name="sender">PopupItem</param>
+	<param name="e">EventArgs</param>
+</member><member name="M:EVO.Schedule.BaseViewMouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Day, Week, and Month View MouseUp events
+ </summary>
+	<param name="sender">BaseView</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.InHeaderMouseUp(DevComponents.DotNetBar.Schedule.BaseView,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles BaseView InHeader MouseUp events.
+ </summary>
+	<param name="view">BaseView</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.InSideBarMouseUp(DevComponents.DotNetBar.Schedule.BaseView,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles SideBar MouseUp events
+ </summary>
+	<param name="view">BaseView</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.InCondensedViewMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Up events in the CondensedView
+ area of the control
+ </summary>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.InContentMouseUp(DevComponents.DotNetBar.Schedule.BaseView,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles BaseView InContent MouseUp events
+ </summary>
+	<param name="view">BaseView</param>
+	<param name="e">MouseEventArgs</param>
+</member><member name="M:EVO.Schedule.ShowContextMenu(DevComponents.DotNetBar.ButtonItem)">
+	<summary>
+ Shows the given ContextMenu
+ </summary>
+	<param name="cm">ContextMenu to show</param>
+</member><member name="M:EVO.Schedule.bi_CondensedClick(System.Object,System.EventArgs)">
+	<summary>
+ Handles InContentContextMenu Condensed selection
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:EVO.Schedule.bi_PageNavigatorClick(System.Object,System.EventArgs)">
+	<summary>
+ Handles InContentContextMenu PageNavigator selection
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:EVO.Schedule.IsDateSelected(System.DateTime,System.DateTime)">
+	<summary>
+ Determines if the given date range is within the currently selected
+ CalendarView selection range (DateSelectionStart to DateSelectionEnd)
+ </summary>
+	<param name="startDate">Start date range</param>
+	<param name="endDate">End date range</param>
+	<returns>True if selected</returns>
+</member><member name="T:EVO.DrawHelpers">
+	<summary>
+ Facebook GDI Theme
+ Creator: Xertz (HF)
+ Version: 1.1
+ Date Created: 15/12/2013
+ Date Changed: 15/12/2013
+ UID: 1602992
+ For any bugs / errors, PM me.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:EVO.MouseState_">
+	<summary>
+ Element Theme
+ Created by Earn
+ From HF
+ </summary>
+	<remarks></remarks>
+</member><member name="M:EVO.NotificationManager.Show(System.Windows.Forms.Control@,System.String,System.Drawing.Color,System.Int32)">
+	<summary>
+ Shows the message to the user.
+ </summary>
+	<param name="Message">The message to show.</param>
+	<param name="glw">Color of the glow.</param>
+	<param name="delay">The time before the message to disappear, in Milliseconds.</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
